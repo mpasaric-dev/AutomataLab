@@ -3,10 +3,10 @@
   <head>
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
     <meta charset="utf-8">
-    <meta name="description" content="Finite State Machine simulator for Deterministic Finite Automata, Non-Deterministic Finite Automata, and Push-Down Automata." />
-		<meta name="author" content="Kyle Dickerson" />
+    <meta name="description" content="Simulator for abstract machines and automata." />
+		<meta name="author" content="Maja Pasaric />
 
-    <title>Automaton Simulator</title>
+    <title>Automata Lab</title>
     <link rel="stylesheet" type="text/css" href="css/smoothness/jquery-ui-1.10.0.custom.min.css" />
     <link rel="stylesheet" type="text/css" href="css/fsm.css" />
     <link rel="shortcut icon" href="favicon.ico" />
@@ -42,7 +42,7 @@
 
     <div id="mainHolder">
       <h1>
-          Automaton Simulator:
+          Automata Lab:
           <button class="delegate" disabled="disabled" title="Deterministic Finite Automaton">DFA</button>
           <button class="delegate" title="Non-Deterministic Finite Automaton">NFA</button>
           <button class="delegate" title="Pushdown Automaton">PDA</button>
@@ -68,14 +68,10 @@
 
     <div id="footer">
 			<div>
-	      <a href="http://www.linkedin.com/in/kyledickerson/">Kyle Dickerson</a> --
-        kyle.dickerson@gmail.com
-  	    <a href="//plus.google.com/111960029093387822677?prsrc=3" rel="publisher" style="text-decoration:none;">
-  	      <img src="images/gplus-16.png" alt="Google+" style="border:0;width:16px;height:16px;vertical-align:middle;"/>
-  	    </a> --
+	      This project is based on work by <a href="http://www.linkedin.com/in/kyledickerson/">Kyle Dickerson</a>.
 
-        <a href="https://github.com/kdickerson/automatonSimulator">On Github</a>&nbsp;&nbsp;
-  	    Tools:
+        The original code can be found in <a href="https://github.com/kdickerson/automatonSimulator">this GitHub repository</a>.&nbsp;&nbsp;
+  	    Tools used:
         <a href="http://jquery.com/">jQuery</a>&nbsp;&nbsp;
         <a href="https://github.com/jsplumb/jsplumb">jsPlumb</a>&nbsp;&nbsp;
         Icons:
@@ -112,20 +108,5 @@
     <script src="js/dfa_delegate.js"></script>
     <script src="js/nfa_delegate.js"></script>
     <script src="js/pda_delegate.js"></script>
-    <!-- Piwik Analytics -->
-		<script type="text/javascript">
-			var _paq = _paq || [];
-			_paq.push(["trackPageView"]);
-			_paq.push(["enableLinkTracking"]);
-
-			(function() {
-				var u=(("https:" == document.location.protocol) ? "https" : "http") + "://analytics.serindu.com/";
-				_paq.push(["setTrackerUrl", u+"piwik.php"]);
-				_paq.push(["setSiteId", "1"]);
-				var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
-				g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
-			})();
-		</script>
-		<!-- End Piwik Code -->
   </body>
 </html>
