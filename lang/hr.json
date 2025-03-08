@@ -1,0 +1,22 @@
+{
+  "save-btn": { "title": "Spremi" },
+  "load-btn": { "title": "Učitaj" },
+  "add-state-btn": { "title": "Dodaj stanje" },
+  "test-input": "Testiraj unos:",
+  "test": { "title": "Testiraj" },
+  "stop-debug": { "title": "Zaustavi debugiranje" },
+  "start-step-debug": { "title": "Počni debugiranje/Korak naprijed" },
+  "bulk-test-header": "Grupno testiranje",
+  "bulk-test-btn": { "title": "Pokreni grupne testove" },
+  "accept": "Prihvati ulaze:",
+  "reject": "Odbij ulaze:",
+  "dfa-btn": { "title": "Deterministički konačni automat" },
+  "dfa-label": "DKA",
+  "nfa-btn": { "title": "Nedeterministički konačni automat" },
+  "nfa-label": "NKA",
+  "pda-btn": { "title": "Potisni automat" },
+  "pda-label": "PA",
+  "reset-btn": {"title":  "Resetiraj"},
+  "example-opt": "Primjeri",
+  "bulk-result-header": "Rezultati testiranja:"
+}

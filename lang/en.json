@@ -1,0 +1,22 @@
+{
+  "save-btn": { "title": "Save" },
+  "load-btn": { "title": "Load" },
+  "add-state-btn": { "title": "Add state" },
+  "test-input": "Test input:",
+  "test": { "title": "Test" },
+  "stop-debug": { "title": "Stop debugging" },
+  "start-step-debug": { "title": "Start/Step debug" },
+  "bulk-test-header": "Bulk testing",
+  "bulk-test-btn": { "title": "Run bulk tests" },
+  "accept": "Accept (one per line):",
+  "reject": "Reject (one per line):",
+  "dfa-btn": { "title": "Deterministic finite automaton" },
+  "dfa-label": "DFA",
+  "nfa-btn": { "title": "Non-deterministic finite automaton" },
+  "nfa-label": "NFA",
+  "pda-btn": { "title": "Pushdown automaton" },
+  "pda-label": "PDA",
+  "reset-btn": {"title":  "Reset"},
+  "example-opt": "Examples",
+  "bulk-result-header": "Test results:"
+}
